@@ -1,0 +1,17 @@
+### Dependent Python modules:
+
+## Main Django module.
+Django 
+
+## Enables Django connection to MySQL data warehouse container.
+mysqlclient
+
+## Facilitates control of the form rendering behavior "in a very elegant and DRY way."
+##     See: https://django-crispy-forms.readthedocs.io/en/latest/index.html
+##     See: https://github.com/django-crispy-forms/django-crispy-forms/
+django-crispy-forms
+
+## CSS bootstrap library for Crispy Forms.
+##     See: https://pypi.org/project/crispy-bootstrap4/
+##     See: https://github.com/django-crispy-forms/crispy-bootstrap4
+crispy-bootstrap4
