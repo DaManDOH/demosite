@@ -83,21 +83,11 @@ WSGI_APPLICATION = 'demosite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'demo',
-#         'USER': 'demoadmin',
-#         'PASSWORD': Path(os.getenv('DEMOADMIN_PASSWORD_FILE')).read_text(),
-#         'HOST': 'db',
-#         'PORT': '3306',
-#     }
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sparc',
-        'USER': 'sparcfrontend',
+        'NAME': 'demo',
+        'USER': 'demoadmin',
         'PASSWORD': Path('.password').read_text(),
         'HOST': 'db',
         'PORT': '3306',
